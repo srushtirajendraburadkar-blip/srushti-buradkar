@@ -63,6 +63,7 @@
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "logo-text": "Tisso Vision",
+        "logo-middletext": "<p>Find the ideal gift for your loved ones.</p>",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
