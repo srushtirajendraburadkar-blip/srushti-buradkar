@@ -54,7 +54,7 @@
         "collection": "all",
         "products_to_show": 6,
         "title": "Tisso Vision In The Wild",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
