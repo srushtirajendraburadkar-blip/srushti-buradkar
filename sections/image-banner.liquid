@@ -146,6 +146,7 @@
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
+                  <span><img class="img-plus" src="{{ 'icon-plus.svg' | asset_url }}" alt="Plus Icon"></span>
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
