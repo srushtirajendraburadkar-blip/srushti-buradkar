@@ -62,6 +62,7 @@
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
+        "logo-text": "Tisso Vision",
         "menu": "",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
