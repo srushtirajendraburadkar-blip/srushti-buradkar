@@ -81,6 +81,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2{}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 6,
