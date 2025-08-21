@@ -180,7 +180,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- liquid
+    {% comment %} {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
@@ -188,8 +188,8 @@
           render 'header-mega-menu'
         endif
       endif
-    %}
-<div class="middle-text">{{ section.settings.logo-middletext }}</div>
+    %} {% endcomment %}
+<span class="middle-text">{{ section.settings.logo-middletext }}</span>
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
