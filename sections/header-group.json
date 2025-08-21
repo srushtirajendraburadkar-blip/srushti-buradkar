@@ -65,7 +65,7 @@
         "logo-text": "Tisso Vision",
         "logo-middletext": "<p>Find the ideal gift for your loved ones.</p>",
         "menu": "main-menu",
-        "button_text": "Shop Now",
+        "button_text": "CHOOSE GIFT",
         "button_link": "shopify://collections/all",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
