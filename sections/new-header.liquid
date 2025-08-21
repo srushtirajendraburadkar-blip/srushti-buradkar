@@ -172,7 +172,7 @@
             }}
           </div>
         {%- else -%}
-          <span class="h2">{{ shop.name }}</span>
+          <span class="h2">{{ section.settings.logo-text }}</span>
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}
@@ -512,6 +512,12 @@
       ],
       "default": "center",
       "label": "t:sections.header.settings.mobile_logo_position.label"
+    },
+    {
+      "type": "text",
+      "id": "logo-text",
+      "label": "Logo text",
+      "default": "My Store"
     },
     {
       "type": "link_list",
