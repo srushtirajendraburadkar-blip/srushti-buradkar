@@ -189,7 +189,7 @@
         endif
       endif
     %}
-
+<div class="middle-text">{{ section.settings.logo-middletext }}</div>
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
@@ -518,6 +518,12 @@
       "id": "logo-text",
       "label": "Logo text",
       "default": "My Store"
+    },
+    {
+      "type": "richtext",
+      "id": "logo-middletext",
+      "label": "Heder Center text"
+     
     },
     {
       "type": "link_list",
